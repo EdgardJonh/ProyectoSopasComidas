@@ -9,6 +9,12 @@ function buscarcomida() {
     .then(dato =>{
       console.log(dato)  
      console.log(dato.meals[0].strMeal)
+     //Titulo de la Comida
+     let titulocomida = document.getElementById('tituloComida')
+     titulocomida.innerHTML = dato.meals[0].strMeal
+     ///////////////////////////////////////////////////////////////
+
+
      console.log(dato.meals[0].strCategory)
      console.log(dato.meals[0].strArea)
      
