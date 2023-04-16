@@ -1,5 +1,5 @@
 
-document.addEventListener('DOMContentLoaded', buscarcomida)
+//document.addEventListener('DOMContentLoaded', buscarcomida)
 function buscarcomida() {
     let txtbuscar = document.getElementById('txtbuscar').value 
     console.log(txtbuscar) 
